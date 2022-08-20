@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(45deg, rgb(20, 185, 250), rgb(6, 6, 104));
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    height: 120px;
+    width: 120px;
+    animation: 2s infinite prof;
+}
+@keyframes prof{
+    50%{
+        box-shadow: inset 0.5px 0.5px 4em whitesmoke, 0.5px 0.5px 3em whitesmoke;
+    }
+}
+/* contacte */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(3.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: none;
+    border: none;
+    animation: 4s infinite whatsapp;
+}
+@keyframes whatsapp{
+    50%{
+        transform: scale(1.2, 1.2);
+        box-shadow: inset 2px 2px 4em blue;
+        border-radius: 50px;
+    }
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: none;
+    border: none;
+    animation: 3s infinite mail;
+}
+@keyframes mail{
+    50%{
+        transform: scale(1.2, 1.2);
+        box-shadow: inset 2px 2px 4em red;
+        border-radius: 50px;
+    }
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: none;
+    border: none;
+    animation: 5s infinite maps;
+}
+@keyframes maps{
+    50%{
+        transform: scale(1.2, 1.2);
+        box-shadow: inset 2px 2px 4em green;
+        border-radius: 50px;
+    }
+}
+/* social */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:  2px 2px 4em whitesmoke;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    background-image: url(2.png);
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+    width: 100px;
+    background: none;
+    border: none;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bth{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    background: none;
+    border: none;
+}
+.h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: 7s infinite facebook;
+}
+@keyframes facebook{
+    50%{
+        transform: translateY(120px);
+        box-shadow: inset 2px 2px 4em crimson, 2px 2px 4em whitesmoke;
+    }
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: 7s infinite instagram;
+}
+@keyframes instagram{
+    50%{
+        transform: translateY(180px);
+        box-shadow: inset 2px 2px 4em yellow, 2px 2px 4em whitesmoke;
+    }
+}
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: 7s infinite twitter;
+}
+@keyframes twitter{
+    50%{
+        transform: translateY(60px);
+        box-shadow: inset 2px 2px 4em skyblue, 2px 2px 4em whitesmoke;
+    }
+}
+.linkdin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: 7s infinite linkdin;
+}
+@keyframes linkdin{
+    50%{
+        transform: translateY(-120px);
+        box-shadow: inset 2px 2px 4em chartreuse, 2px 2px 4em whitesmoke;
+    }
+}
+.tiktok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: 7s infinite tiktok;
+}
+@keyframes tiktok{
+    50%{
+        transform: translateY(-240px);
+        box-shadow: inset 2px 2px 4em forestgreen, 2px 2px 4em whitesmoke;
+    }
+}
